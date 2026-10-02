@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "files": {
+    "cmd/greetings-dispatch/main.go": "6015a5e72eefc6d173cae22c586be540cc9fefe2b16a06c17dc8a481d5fa672e",
+    "dagger.gen.go": "51f2731f4578b0eede00cae6f0a82d363a99be41536eb2859a13881ed8b29ded",
+    "internal/dagger/dagger.gen.go": "d351dea2d1419d149b03c207c24d8b4843c76d7abae3e9fff54093d035872329",
+    "internal/dagger/entrypoint/main.dang": "42298e9296124bcab7b43562876d173d28eda1a666e2284633811a75fe9ea33e",
+    "internal/dagger/greetings.gen.go": "da82c2e11623ff87b006bb2027b223414a471fb11fd5ddad921435a76d936f27"
+  }
+}

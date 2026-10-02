@@ -1,0 +1,16 @@
+# Dagger workspace configuration
+# Install modules with: dagger module install <module>
+# Example:
+#   dagger module install dagger.io/linux/wolfi
+
+[modules]
+
+[modules.go-sdk]
+source = "dagger.io/sdk/go@main"
+
+[sdks.go]
+module = "go-sdk"
+
+[sdks.go.scopes.greetings]
+is-module = true
+clients = ["./greetings"]
