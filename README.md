@@ -3,8 +3,8 @@
 This is related to https://github.com/dagger/dagger/pull/13882
 
 - `modules` is where a module is authored. The `dagger.toml` contains the go-sdk, and this is where we can develop the module
-- `shared` is a place where the module is simply installed into the `dagger.toml`. This represent the set of modules that we want to share
-- `project` is somewhere else we want to use the modules shared by `shared`, and developped inside `modules`. But here it's only about using them
+- `modules/dagger-shared.toml` is a `dagger.toml`-like representing the set of modules or config to share with others
+- `project` is somewhere else we want to use the modules shared by `dagger-shared.toml`, and developped inside `modules`. But here it's only about using them
 
 To try it:
 
@@ -22,7 +22,7 @@ To try it:
 
     ```toml
     [[include]]
-    source = "../shared"
+    source = "../modules/dagger-shared.toml"
     ```
 
 3. Use the available module

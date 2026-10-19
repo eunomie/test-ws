@@ -1,2 +1,2 @@
 [[include]]
-source = "../shared"
+source = "../modules/dagger-shared.toml"
